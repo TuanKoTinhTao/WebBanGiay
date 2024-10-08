@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="image/logoNike.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Login Form-->
+
+    <div class="login_form">
+      <div class="left">
+        <img src="image/logshoes.png" />
+      </div>
+
+      <div class="right">
+        <h1>Welcome Back!</h1>
+
+        <!-- Đường dẫn backend login -->
+        <form action="#" method="post">
+          <p>User Name</p>
+          <div class="user">
+            <i class="fa-solid fa-user"></i>
+            <input
+              type="text"
+              name="user"
+              placeholder="User Name"
+              class="username"
+            />
+          </div>
+
+          <p class="passworg_tag">Password</p>
+          <div class="password">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" />
+          </div>
+
+          <p class="forget">Forget Password ?</p>
+        </form>
+
+        <button type="submit">Login</button>
+
+        <div
+          align="center"
+          style="margin-top: 5px; margin-bottom: 5px; font-size: 18px"
+        >
+          or
+        </div>
+
+        <a href="./dangki.html"><button>Sign Up</button></a>
+
+        <div class="loging_icon">
+          <a href="#"><img src="image/google.png" /></a>
+          <a href="#"><img src="image/facebook.png" /></a>
+          <a href="#"><img src="image/twitter.png" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
