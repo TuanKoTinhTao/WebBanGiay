@@ -31,10 +31,38 @@
 
       <div class="icons">
         <a><i class="fa-solid fa-heart"></i></a>
-        <a><i class="fa-solid fa-cart-shopping"></i></a>
+        <a><i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a>
         <a href="./login.html" style="color: black"
           ><i class="fa-solid fa-user"></i
         ></a>
+      </div>
+
+      <!-- Cart -->
+      <div class="cart">
+        <h2 class="cart-title">Your cart</h2>
+        <!-- content -->
+        <div class="cart-content">
+          <!-- <div class="cart-box">
+            <img src="image/shoe1.png" class="cart-img" />
+            <div class="detail-box">
+              <div class="cart-product-title">Nike</div>
+              <div class="cart-price">150.99$</div>
+              <input type="number" value="1" class="cart-quantity" />
+            </div> -->
+          <!-- Remove Cart -->
+          <!-- <i class="fa-solid fa-trash cart-remove"></i> -->
+          <!-- </div> -->
+        </div>
+        <!-- Total -->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">0$</div>
+        </div>
+
+        <!-- Buy Button -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- Cart Close -->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
       </div>
     </div>
 
@@ -56,14 +84,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe1.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe1.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe1.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$100.99</h3>
+            <h3 class="price">$100.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -71,7 +102,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -81,14 +112,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe2.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe2.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe2.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$200.99</h3>
+            <h3 class="price">$200.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -96,7 +130,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -106,14 +140,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe3.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe3.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe3.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$175.99</h3>
+            <h3 class="price">$175.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -121,7 +158,7 @@
               <i class="fa-solid fa-star-half-stroke"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -131,14 +168,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe4.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe4.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe4.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$120.99</h3>
+            <h3 class="price">$120.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -146,7 +186,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -156,14 +196,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe5.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe5.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe5.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$150.99</h3>
+            <h3 class="price">$150.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -171,7 +214,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -181,14 +224,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe6.jpg" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe6.jpg" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe6.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$220.99</h3>
+            <h3 class="price">$220.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -196,7 +242,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -206,14 +252,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe7.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe7.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe7.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$110.99</h3>
+            <h3 class="price">$110.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -221,7 +270,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
 
@@ -231,14 +280,17 @@
             <i class="fa-solid fa-share"></i>
           </div>
 
-          <div class="image">
-            <img src="image/shoe8.png" />
-          </div>
+          <!-- <div class="image">
+            <img src="image/shoe8.png" class="product-img" />
+          </div> -->
 
           <div class="products_text">
-            <h2>NIKE</h2>
+            <div class="image">
+              <img src="image/shoe8.png" class="product-img" />
+            </div>
+            <h2 class="product-title">NIKE</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <h3>$150.99</h3>
+            <h3 class="price">$150.99</h3>
             <div class="products_star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -246,7 +298,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">Add To Cart</a>
+            <a class="btn add-cart">Add To Cart</a>
           </div>
         </div>
       </div>
